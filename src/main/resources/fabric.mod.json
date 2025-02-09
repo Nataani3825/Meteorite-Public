@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "meteorite",
+  "version": "0.1.1",
+  "name": "Meteorite",
+  "description": "A collection of base / stash hunter addons",
+  "authors": [
+    "Nataani3825"
+  ],
+  "contact": {
+    "repo": "https://github.com/Nataani3825/meteorite"
+  },
+  "icon": "assets/template/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "meteor": [
+      "meteorite.meteor.addon.Meteorite"
+    ]
+  },
+  "accessWidener": "meteorite.accesswidener",
+  "mixins": [
+    "meteorite.mixins.json"
+  ],
+  "custom": {
+    "meteor-client:color": "225,25,25"
+  },
+  "depends": {
+    "java": ">=21",
+    "minecraft": ["${mc_version}"],
+    "meteor-client": "*"
+  }
+}

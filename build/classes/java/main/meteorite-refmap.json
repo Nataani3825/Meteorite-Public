@@ -1,0 +1,14 @@
+{
+  "mappings": {
+    "meteorite/meteor/addon/mixin/MobSpawnerLogicMixin": {
+      "spawnDelay": "field_9154:I"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "meteorite/meteor/addon/mixin/MobSpawnerLogicMixin": {
+        "spawnDelay": "field_9154:I"
+      }
+    }
+  }
+}
